@@ -26,7 +26,7 @@
       function determineDisplay(){
         var message = "";
         if(checkNoOfItems($scope.lunchItems) > 0  && checkNoOfItems($scope.lunchItems) <= 3)
-          message = "Enjoy";
+          message = "Enjoy!";
         else if (checkNoOfItems($scope.lunchItems)>3) {
           message = "Too much!";
         }
